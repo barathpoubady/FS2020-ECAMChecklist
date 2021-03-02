@@ -1,0 +1,240 @@
+[{
+    "name": "Airbus A320",
+    "checklists": [{
+            "name": "Before Start",
+            "checklists": [{
+                    "name": "Cockpit Prep",
+                    "value": "Complete (Both)"
+                },
+                {
+                    "name": "Signs",
+                    "value": "On / Auto"
+                },
+                {
+                    "name": "Adirs",
+                    "value": "Aligned"
+                },
+                {
+                    "name": "Fuel Quantity",
+                    "value": "___KG / Balanced"
+                },
+                {
+                    "name": "FMGS",
+                    "value": "Set"
+                },
+                {
+                    "name": "Altimeters",
+                    "value": "____SET/___ FT (Both)"
+                },
+                {
+                    "name": "Windows/Doors",
+                    "value": "Closed/Armed (Both)"
+                },
+                {
+                    "name": "Beacon",
+                    "value": "On"
+                },
+                {
+                    "name": "Mobile Phone",
+                    "value": "Off (Both)"
+                },
+                {
+                    "name": "Parking Brake",
+                    "value": "On"
+                }
+            ]
+        },
+        {
+            "name": "After Start",
+            "checklists": [{
+                    "name": "Anti-Ice",
+                    "value": "As Required"
+                },
+                {
+                    "name": "ECAM Status",
+                    "value": "Checked"
+                },
+                {
+                    "name": "Pitch Trim",
+                    "value": "____% Set"
+                },
+                {
+                    "name": "Rudder Trim",
+                    "value": "Zero"
+                }
+            ]
+        },
+        {
+            "name": "Before Takeoff",
+            "checklists": [{
+                    "name": "Flt Ctl",
+                    "value": "Checked (both)"
+                },
+                {
+                    "name": "Briefing",
+                    "value": "Confirmed"
+                },
+                {
+                    "name": "Flap Setting",
+                    "value": "CONF (both)"
+                },
+                {
+                    "name": "FMA & Takeoff Data",
+                    "value": "Read (PF) / Checked (PNF)"
+                },
+                {
+                    "name": "Transponder",
+                    "value": "Set"
+                },
+                {
+                    "name": "ECAM Memo",
+                    "value": "Takeoff No Blue"
+                },
+                {
+                    "name": "LPC",
+                    "value": "Sby/Disconnected (Both)"
+                },
+                {
+                    "name": "Cabin",
+                    "value": "Secured For Takeoff"
+                },
+                {
+                    "name": "ENG Mode Sel",
+                    "value": "As Required"
+                },
+                {
+                    "name": "TCAS",
+                    "value": "TA/RA"
+                },
+                {
+                    "name": "Packs",
+                    "value": "As Required"
+                },
+                {
+                    "name": "Anti Ice",
+                    "value": "As Required"
+                }
+            ]
+        },
+        {
+            "name": "Approach",
+            "checklists": [{
+                    "name": "MDA/DH",
+                    "value": "Set (both)"
+                },
+                {
+                    "name": "Eng Mode Sel",
+                    "value": "As Required"
+                },
+                {
+                    "name": "LPC",
+                    "value": "Sby/Disconnected (Both)"
+                }
+            ]
+        },
+        {
+            "name": "Landing",
+            "checklists": [{
+                    "name": "Cabin Crew",
+                    "value": "Advised"
+                },
+                {
+                    "name": "A/THR",
+                    "value": "Speed/Off"
+                },
+                {
+                    "name": "Go-Around Altitude",
+                    "value": "____FT Set"
+                },
+                {
+                    "name": "ECAM Memo",
+                    "value": "LDG No Blue"
+                }
+            ]
+        },
+        {
+            "name": "Parking (Silent)",
+            "checklists": [{
+                    "name": "APU Bleed",
+                    "value": "As Required"
+                },
+                {
+                    "name": "Y Elec Pump",
+                    "value": "Off"
+                },
+                {
+                    "name": "Engines",
+                    "value": "Off"
+                },
+                {
+                    "name": "Seat Belts",
+                    "value": "Off"
+                },
+                {
+                    "name": "Ext LT",
+                    "value": "As Required"
+                },
+                {
+                    "name": "Parking Brake and Chocks",
+                    "value": "As Required"
+                },
+                {
+                    "name": "Mobile Phone",
+                    "value": "On"
+                },
+                {
+                    "name": "Transponder",
+                    "value": "SBY 2000"
+                },
+                {
+                    "name": "Radar/PWS",
+                    "value": "Off"
+                },
+                {
+                    "name": "Consider Heavy Rain - Extract",
+                    "value": "Ovrd"
+                }
+            ]
+        },
+        {
+            "name": "Securing the aircraft",
+            "checklists": [{
+                    "name": "LPC",
+                    "value": "Both Off"
+                },
+                {
+                    "name": "Fuel Pumps",
+                    "value": "Off"
+                },
+                {
+                    "name": "Adirs",
+                    "value": "Off"
+                },
+                {
+                    "name": "Oxygen",
+                    "value": "Off"
+                },
+                {
+                    "name": "APU Bleed",
+                    "value": "Off"
+                },
+                {
+                    "name": "Emer Exit Lt",
+                    "value": "Off"
+                },
+                {
+                    "name": "No Smoking",
+                    "value": "Off"
+                },
+                {
+                    "name": "APU and Bat",
+                    "value": "Off"
+                },
+                {
+                    "name": "(New Flight)",
+                    "value": "Restart Checklist"
+                }
+            ]
+        }
+    ]
+}]

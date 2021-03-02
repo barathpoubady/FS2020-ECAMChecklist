@@ -1,0 +1,376 @@
+[{
+    "name": "Airbus A320",
+    "checklists": [{
+            "name": "PRELIMINARY COKPIT PREP",
+            "checklists": [
+                { "name": "ENGINE MASTER", "value": "CHECK OFF" },
+                { "name": "ENGINE MODE SEL", "value": "CHECK NORM" },
+                { "name": "L/G level", "value": "CHECK DOWN" },
+                { "name": "DOME LIGHTS", "value": "ON" },
+                { "name": "BAT", "value": "CHECK/AUTO" },
+                { "name": "EXT PWR", "value": "ON" },
+                { "name": "NAV/LOG", "value": "ON" },
+                { "name": "ADJUST COCKPIT LIGHTS", "value": "SET" },
+                { "name": "APU", "value": "START" },
+                { "name": "PARKING BRAKE", "value": "ON" },
+                { "name": "BRAKE PRESS", "value": "CHECK" },
+                { "name": "FLAPS", "value": "CHECK POSITION" },
+                { "name": "SPD BRAKE LEVEL. CHECK RET & DISA APU BLEED", "value": "ON" },
+                { "name": "AIR COND panel", "value": "SET" },
+                { "name": "ELEC panel", "value": "CHECK" },
+                { "name": "VENT panel", "value": "CHECK" }
+            ]
+        },
+        {
+            "name": "COCKPIT PREPARATION - OVERHEAD PANEL",
+            "checklists": [
+                { "name": "SIGNS", "value": "SET" },
+                { "name": "EMERGENCY EXIT", "value": "ON" },
+                { "name": "BAT.", "value": "CHECK" },
+                { "name": "AIRFIELD DATA", "value": "OBTAIN" },
+                { "name": "ATC CLEARANCE", "value": "OBTAIN" },
+                { "name": "ADIR's 1/2/3", "value": "ON" },
+                { "name": "PUMPS", "value": "ON" },
+                { "name": "CREW SUP.", "value": "ON" },
+                { "name": "CAPT/PURGE", "value": "ON" }
+
+            ]
+        },
+        {
+            "name": "COCKPIT PREPARATION - FMGS",
+            "checklists": [
+                { "name": "FMGS IN1T. :", "value": "" },
+                { "name": "ENG. & AIRC. TYPE", "value": "CHECK" },
+                { "name": "DATABASE VALID", "value": "CHECK" },
+                { "name": "F-PLN INIT", "value": "COMPLETE" },
+                { "name": "ALIGN IRS", "value": "PRESS" },
+                { "name": "F-PLN A", "value": "COMPLETE" },
+                { "name": "WINDS CLB/CRZ", "value": "INSERT" },
+                { "name": "RADIO NAV", "value": "CHECK" },
+                { "name": "FMGS DATA INS. : FMGS DATA INS. :", "value": "" },
+                { "name": "ZFCG, ZFW", "value": "INSERT" },
+                { "name": "BLOCK FUEL", "value": "INSERT" },
+                { "name": "MCDU page - METAR", "value": "REQUEST" },
+                { "name": "TAKE OFF DATA", "value": "INSERT" }
+            ]
+        },
+        {
+            "name": "COCKPIT PREPARATION - GLARESHIELD",
+            "checklists": [
+                { "name": "BARO REF", "value": "SET" },
+                { "name": "FD", "value": "CHECK ON" },
+                { "name": "ND mode and range", "value": "SET" },
+                { "name": "VOR/ADF sel", "value": "AS RORD" },
+                { "name": "PEDESTALE:PEDESTALE:", "value": "" },
+                { "name": "THRUST LEVERS", "value": "CHECK IDLE" },
+                { "name": "ENG MASTER", "value": "CHECK OFF" },
+                { "name": "ENG MODE SEL", "value": "CHECK NORMAL" },
+                { "name": "PWS", "value": "ON" },
+                { "name": "PARK BR. PRESS", "value": "CHECK" },
+                { "name": "ATC", "value": "SET" },
+                { "name": "FUEL QTY.", "value": "CHECK" }
+            ]
+        },
+        {
+            "name": "BEFORE PUSHBACK",
+            "checklists": [
+                { "name": "T/O DATA", "value": "ENTER/REVISE" },
+                { "name": "SEAT BELT.", "value": "ADJUST" },
+                { "name": "WINDOWS/DOORS", "value": "CHECK" },
+                { "name": "THR LEVEL", "value": "IDLE" },
+                { "name": "EXT PWR", "value": "CHECK OFF" },
+                { "name": "PUSH/START CLEARANCE", "value": "OBTAIN" },
+                { "name": "BEACON", "value": "ON" },
+                { "name": "CABIN CREW", "value": "COMPLETED" }
+            ]
+        },
+        {
+            "name": "ENGINE START",
+            "checklists": [
+                { "name": "ENG MODE SEL", "value": "IGN/START" },
+                { "name": "ANNOUNCE", "value": "# STARTING ENG2 #" },
+                { "name": "MASTER SW2", "value": "ON" },
+                { "name": "START VALVE", "value": "Chrono tech. Start-OFF" },
+                { "name": "NE", "value": "" },
+                { "name": "INGNITER", "value": "" },
+                { "name": "FUEL FLOW", "value": "" },
+                { "name": "EGT", "value": "CHECK" },
+                { "name": "N1", "value": "" },
+                { "name": "OIL PRESS", "value": "" },
+                { "name": "START VALVE", "value": "" },
+                { "name": "CLOSE", "value": "" },
+                { "name": "50% N2 CFM", "value": "Look informations" },
+                { "name": "43% NZ IAE", "value": "ECAM ecran W" }
+            ]
+        },
+        {
+            "name": "ENGINE START - suite",
+            "checklists": [
+                { "name": "ENGINE IDLE", "value": "(before aligned mode)" },
+                { "name": "PARAMETERS", "value": "CHECK" },
+                { "name": "ANNOUNCE", "value": "# STARTING ENG1 #" },
+                { "name": "REPEAT THE START SEQUENCE", "value": "DONE" }
+            ]
+        },
+        {
+            "name": "AFTER START",
+            "checklists": [
+                { "name": "ENG MODE SEL", "value": "NORM" },
+                { "name": "APU BLEED", "value": "OFF" },
+                { "name": "GND SPLRS", "value": "ARM" },
+                { "name": "RUD TRIM", "value": "ZERO" },
+                { "name": "FLAPS", "value": "SET" },
+                { "name": "PITCH TRIM (disp, calc, brf)", "value": "SET" },
+                { "name": "TEST CONTROLS (lft, rgt, up, dwn)", "value": "CHECK" },
+                { "name": "GOVERN (lft normal rigt)", "value": "CHECK" },
+                { "name": "ENG ANTI ICE", "value": "AS RORD" },
+                { "name": "WING ANTI ICE", "value": "AS RORD" },
+                { "name": "APU MASTER SW.", "value": "OFF" }
+            ]
+        },
+        {
+            "name": "TAXI",
+            "checklists": [
+                { "name": "NOSE LIGHT.", "value": "TAXI" },
+                { "name": "PACS", "value": "OFF" },
+                { "name": "TAXI CLEARANC", "value": "OBTAIN" },
+                { "name": "TAXI CLEARANCE OBTAINED:", "value": "" },
+                { "name": "PARKING BRAKE", "value": "OFF" },
+                { "name": "THRUST LEVERS", "value": "AS RORD" },
+                { "name": "BRAKES", "value": "CHECK" },
+                { "name": "At holding point:", "value": "MAX" },
+                { "name": "AUTO BRAKE", "value": "SET" },
+                { "name": "FCU ALT/HDG", "value": "CHECK" },
+                { "name": "FD", "value": "ON" },
+                { "name": "ATC CODE", "value": "SET" },
+                { "name": "TO CONFIG", "value": "PRESS" }
+            ]
+        },
+        {
+            "name": "BEFORE TAKE OFF",
+            "checklists": [
+                { "name": "BRAKE TEMP.", "value": "CHECK" },
+                { "name": "TAKEOFF/LINE UP CLEARANCE", "value": "OBTAIN" },
+                { "name": "APPROACH PATH CLEAR OF TRAFFIC", "value": "CHECK" },
+                { "name": "CAB", "value": "CALL" },
+                { "name": "T.O. LIGHTS", "value": "SET" },
+                { "name": "TCAS", "value": "TA or TA/RA" }
+            ]
+        },
+        {
+            "name": "TAKE OFF",
+            "checklists": [
+                { "name": "ANNOUNCE", "value": "# TAKE OFF #" },
+                { "name": "BRAKE", "value": "RELEASE" },
+                { "name": "THRUST LEVERS", "value": "FLEX/TOGA" },
+                { "name": "CHRONO", "value": "START" },
+                { "name": "At l00kt:", "value": "" },
+                { "name": "ANNOUNCE", "value": "# 100 kt CHECKED #" },
+                { "name": "At VI ANNOUNCE", "value": "# VI #" },
+                { "name": "At VR ANNOUNCE", "value": "# ROTATION #" },
+                { "name": "when VS positive:", "value": "" },
+                { "name": "ANNOUNCE", "value": "# POSITIV. CLIMB #" },
+                { "name": "ORDER", "value": "# GEAR UP #" },
+                { "name": "AP.", "value": "AS RORD" },
+                { "name": "At thrust reduce alt:", "value": "" },
+                { "name": "THRUST LEVERS", "value": "CL" },
+                { "name": "PACS", "value": "OFF" }
+            ]
+        },
+        {
+            "name": "TAKE OFF suite",
+            "checklists": [
+                { "name": "SPEED BRAKE", "value": "DISARM" },
+                { "name": "ANNOUNCE FMA", "value": "# CLB.SRS #" },
+                { "name": "At acceleration alt:", "value": "" },
+                { "name": "ANNOUNCE FMA", "value": "# CLB/OP CLB or CLB/CLB #" },
+                { "name": "At F speed:", "value": "" },
+                { "name": "ORDER", "value": "# FLAPS 1 #" },
+                { "name": "At S speed:", "value": "" },
+                { "name": "ORDER", "value": "# FLAPS 0 #" }
+            ]
+        },
+        {
+            "name": "CLIMB",
+            "checklists": [
+                { "name": "At transition altitude:", "value": "" },
+                { "name": "BARO REF.", "value": "SET/X CHECK" },
+                { "name": "At 10000 FEET:", "value": "" },
+                { "name": "LAND LIGHT", "value": "OFF" },
+                { "name": "SEAT BELT", "value": "A.S RORD" },
+                { "name": "OPT/MAX ALT", "value": "CHECK" }
+            ]
+        },
+        {
+            "name": "CRUISE",
+            "checklists": [
+                { "name": "ECAM MEMO/SYS", "value": "REVIEW" },
+                { "name": "FLIGHT PROGRESS", "value": "CHECK" },
+                { "name": "FUEL", "value": "MONITOR" },
+                { "name": "NAV ACCURACY.", "value": "CHECK" },
+                { "name": "CABIN TEMP.", "value": "MONITOR" }
+            ]
+        },
+        {
+            "name": "DESCENT PREPARATION",
+            "checklists": [
+                { "name": "LDG ELVE", "value": "CHECK" },
+                { "name": "LANDING DATA", "value": "PREPARE" },
+                { "name": "FMGS", "value": "PREPARE" },
+                { "name": "DESCENT CLEARANCE", "value": "OBTAIN" }
+            ]
+        },
+        {
+            "name": "DESCENT",
+            "checklists": [
+                { "name": "DESCENT", "value": "INITIATE" },
+                { "name": "DESCENT", "value": "MONITOR" },
+                { "name": "SPEEDBRAKE", "value": "AD RORD" },
+                { "name": "When cleared to altitude:", "value": "" },
+                { "name": "BARO REF", "value": "SET/X CHECK" },
+                { "name": "At 10000 feet:", "value": "" },
+                { "name": "LAND LIGHT", "value": "AS RORD" },
+                { "name": "SEATBELT", "value": "AS RORS" },
+                { "name": "RADIO NAV.", "value": "SELECT/IDENT" },
+                { "name": "NAV ACCURACY.", "value": "CHECK" }
+            ]
+        },
+        {
+            "name": "ILS APPROACH",
+            "checklists": [
+                { "name": "SEAT BELTS", "value": "ON/AUTO" },
+                { "name": "aprox 15NM from touchdown:", "value": "" },
+                { "name": "APP PHASE", "value": "SET GREEN DOT" },
+                { "name": "POSITIONING", "value": "MONITOR" },
+                { "name": "Intermediate/Final approach:", "value": "" },
+                { "name": "When cleared for ILS approach:", "value": "" },
+                { "name": "APPR", "value": "PRESS" },
+                { "name": "BOTHAP.", "value": "ENGAGE" },
+                { "name": "AT green dot: AT green dot:", "value": "" },
+                { "name": "ORDER", "value": "# FLAPS 1 #" },
+                { "name": "S SPEED", "value": "SET" },
+                { "name": "ANNOUNCE", "value": "# FLAPS 1 #" },
+                { "name": "LOC CAPTURE", "value": "MONITOR" },
+                { "name": "ANNOUNCE", "value": "# LOC #" },
+                { "name": "G/S CAPTURE", "value": "MONITOR" }
+
+            ]
+        },
+        {
+            "name": "ILS APPROACH suite",
+            "checklists": [
+                { "name": "ANNOUNCE", "value": "#G/S#" },
+                { "name": "At 2000 feet:", "value": "" },
+                { "name": "ORDER", "value": "# FLAPS 2 #" },
+                { "name": "F SPEED", "value": "SET" },
+                { "name": "ANNOUNCE", "value": "# FLAPS 2 #" },
+                { "name": "ORDER", "value": "# GEAR DOWN #" },
+                { "name": "GRNS SPLRS", "value": "ARM" },
+                { "name": "AUTO BRAKE", "value": "AS RORD" },
+                { "name": "ANNOUNCE", "value": "# GEAR DOWN #" },
+                { "name": "ORDER", "value": "# FLAPS 3 #" },
+                { "name": "ANNOUNCE", "value": "# FLAPS 3 #" },
+                { "name": "ORDER", "value": "# FLAPS FULL #" },
+                { "name": "VAPP.", "value": "SET" },
+                { "name": "ATHR", "value": "SET SPEED or OFF" },
+                { "name": "ANNOUNCE", "value": "# FLAPS FULL #" }
+            ]
+        },
+        {
+            "name": "NON PRECISION APPROACH",
+            "checklists": [
+                { "name": "Initial approach:", "value": "" },
+                { "name": "SEAT BELTS", "value": "ON/AUTO" },
+                { "name": "Aprox 15NM from touchdown:", "value": "" },
+                { "name": "APP PHASE", "value": "SET GREEN DOT" },
+                { "name": "POSITIONING", "value": "MONITOR" },
+                { "name": "Intermediate/Final approach:", "value": "" },
+                { "name": "When cleared for ILS approach:", "value": "" },
+                { "name": "APPR", "value": "PRESS" },
+                { "name": "AT green dot:", "value": "" },
+                { "name": "ORDER", "value": "# FLAPS 1 #" },
+                { "name": "S SPEED", "value": "SET" },
+                { "name": "ANNOUNCE", "value": "# FLAPS 1 #" },
+                { "name": "At S SPEED:", "value": "" },
+                { "name": "ORDER", "value": "# FLAPS 2 #" },
+                { "name": "F SPEED", "value": "SET" },
+                { "name": "ANNOUNCE", "value": "# FLAPS 2 #" },
+                { "name": "ORDER", "value": "# GEAR DOWN #" },
+                { "name": "GRNS SPLRS", "value": "ARM" },
+                { "name": "AUTO BRAKE", "value": "AS RORD" },
+                { "name": "ANNOUNCE", "value": "# GEAR DOWN #" },
+                { "name": "ORDER", "value": "# FLAPS 3 #" },
+                { "name": "ANNOUNCE", "value": "# FLAPS 3#" },
+                { "name": "ORDER", "value": "# FLAPS FULL #" },
+                { "name": "VAPP.", "value": "SET" },
+                { "name": "A/THR", "value": "SET SPEED or OFF" },
+                { "name": "ANNOUNCE", "value": "# FLAPS FULL #" }
+            ]
+        },
+        {
+            "name": "LANDING",
+            "checklists": [
+                { "name": "At 20 feet:", "value": "" },
+                { "name": "FLARE", "value": "PERFORM" },
+                { "name": "TRUST LEVERS", "value": "IDLE" },
+                { "name": "At touchdown:", "value": "" },
+                { "name": "REV.", "value": "MAX" },
+                { "name": "BRAKE", "value": "AS RORD" },
+                { "name": "At 70kt:", "value": "" },
+                { "name": "REV.", "value": "IDLE" },
+                { "name": "Before 20kt:", "value": "" },
+                { "name": "AUTOBRAKE", "value": "DISENGAGE" }
+            ]
+        },
+        {
+            "name": "GO AROUND",
+            "checklists": [
+                { "name": "TRUST LEVERS", "value": "TOGA" },
+                { "name": "ANNOUNCE", "value": "# GO AROUND FLAPS #" },
+                { "name": "ROTATION", "value": "PERFORM" },
+                { "name": "ORDER", "value": "# GEAR UP #" },
+                { "name": "At GA trust red, altitude:", "value": "" },
+                { "name": "TRUST LEVERS", "value": "CL" },
+                { "name": "At GA accel altitude:", "value": "" },
+                { "name": "SPEED", "value": "MONITOR" }
+            ]
+        },
+        {
+            "name": "AFTER LANDING",
+            "checklists": [
+                { "name": "LAND LIGHT", "value": "OFF" },
+                { "name": "GRND SPOILER", "value": "DISARM" },
+                { "name": "FLAPS", "value": "RETRACT" },
+                { "name": "ENG MODE SEL", "value": "NORM" },
+                { "name": "TCAS", "value": "STBY" },
+                { "name": "APU", "value": "START" },
+                { "name": "BRAKE TEMP.", "value": "CHECK" }
+            ]
+        },
+        {
+            "name": "PARKING",
+            "checklists": [
+                { "name": "PARKING BRAKE", "value": "ON" },
+                { "name": "APU BLEED", "value": "ON" },
+                { "name": "ENG MAST 1&2", "value": "OFF" },
+                { "name": "BEACON LIGHT", "value": "OFF" },
+                { "name": "ELAPSED TIME", "value": "STOP" },
+                { "name": "FUEL PUMP.", "value": "OFF" },
+                { "name": "SEAT BELT", "value": "OFF" }
+            ]
+        },
+        {
+            "name": "SECURING THE AIRCRAFT",
+            "checklists": [
+                { "name": "PARKING BRAKE", "value": "CHECK ON" },
+                { "name": "EXTERIOR LIGHT", "value": "OFF" },
+                { "name": "APU BLEED", "value": "OFF" },
+                { "name": "APU MASTER SW.", "value": "OFF" },
+                { "name": "NO SMOKING", "value": "OFF" },
+                { "name": "EXT POWER", "value": "AS RORD" },
+                { "name": "BAT 1+2", "value": "OFF" }
+            ]
+        }
+
+    ]
+}]

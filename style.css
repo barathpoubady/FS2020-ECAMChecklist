@@ -1,0 +1,236 @@
+body {
+    background-color: #000000;
+    position: relative;
+    top: 0;
+}
+
+#checklist-perso {
+    position: relative;
+    top: 0;
+    width: 98%;
+    height: 100%;
+    z-index: 100;
+    visibility: visible;
+    /* background-image: url(DoorVideoResources/checklist_0.png); */
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    color: cyan;
+    padding: 10px;
+}
+
+#checklist-perso h1 {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #ffffff;
+}
+
+#checklist-perso h2 {
+    text-align: left;
+    display: block;
+    font-size: medium;
+    font-family: 'Roboto';
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#checklist-perso table {
+    color: white;
+    border-color: white;
+    width: 100%;
+}
+
+#checklist-perso table td {
+    padding-left: 1%;
+    vertical-align: bottom;
+    height: 25px;
+}
+
+
+/* The container */
+
+#checklist-perso .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    font-size: 40px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #000;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+
+/* Hide the browser's default checkbox */
+
+#checklist-perso .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+#checklist-perso .checkmark {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #FFFFFF;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+#checklist-perso .container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+#checklist-perso .container input:checked~.checkmark {
+    background-color: #000000;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+#checklist-perso .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+#checklist-perso .container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+#checklist-perso .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#checklist-perso .table {
+    display: table;
+    text-align: center;
+    width: 100%;
+    border-collapse: separate;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    background: #000000;
+}
+
+#checklist-perso .table_row {
+    float: left;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+#checklist-perso .table_small {
+    float: left;
+    width: auto;
+    position: relative;
+    z-index: 9999;
+}
+
+#checklist-perso .doted {
+    width: 100%;
+    position: relative;
+    border-bottom: 3px dotted #ffffff;
+    color: white;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* max-width: 400px;*/
+}
+
+.table_small_val {
+    text-align: right;
+    position: absolute;
+    display: block;
+    right: 0;
+    background: #000;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.table {
+    /* max-width: 600px; */
+}
+
+#checklist-perso .second {
+    width: 100%;
+    /* max-width: 300px; */
+    /* min-width: 590px; */
+    position: absolute;
+    z-index: 1;
+}
+
+.value-txt {
+    display: inline;
+    width: auto;
+    text-align: right;
+    background: #000000;
+    height: 160px;
+    z-index: 999;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.checked-value {
+    color: #00FF00;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.title_ {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: cyan;
+    text-align: center;
+}
+
+.powered {
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: cyan;
+    text-align: center;
+    right: 10;
+}
